@@ -77,13 +77,13 @@
   <ItemGroup>
     <ClCompile Include="..\..\asmCapture\asmcapture.cpp" />
     <ClCompile Include="..\..\MCP_3208\MCP3208.cpp" />
-    <ClCompile Include="dataTypeVal.cpp" />
+    <ClCompile Include="captureType.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\asmCapture\asmcapture.h" />
     <ClInclude Include="..\..\MCP_3208\MCP3208.h" />
-    <ClInclude Include="dataTypeVal.h" />
+    <ClInclude Include="captureType.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

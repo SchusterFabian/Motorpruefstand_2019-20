@@ -22,7 +22,8 @@ create date 3.10.2019
 //#include <rapidjson/writer.h> /*JSON*/
 
 #include <libmcp3204.h>
-#include <MCP3208.h>
+#include "MCP3208.h"
+#include "captureType.h"
 
 #include <fstream>
 

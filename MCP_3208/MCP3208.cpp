@@ -29,7 +29,8 @@
  */
 
 
-#include <MCP3208.h>
+#include "MCP3208.h"
+#include "wiringPi.h"
 
 void MCP3208::begin() {
     pinMode(_cs, OUTPUT);

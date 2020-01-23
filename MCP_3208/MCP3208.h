@@ -44,6 +44,9 @@
 #include <SPI.h>
 #endif
 
+
+#include <cstdint>
+
 class MCP3208 {
     private:
         // Private functions and variables here.  They can only be accessed
@@ -72,3 +75,7 @@ class MCP3208 {
         int16_t analogReadDif(uint8_t pin);
 };
 #endif
+
+class mcp3208
+{
+};

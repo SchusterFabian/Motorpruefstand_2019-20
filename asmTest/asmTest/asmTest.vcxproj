@@ -75,11 +75,15 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClCompile Include="..\..\asmcapture\src\asmcapture.cpp" />
+    <ClCompile Include="..\..\asmCapture\asmcapture.cpp" />
+    <ClCompile Include="..\..\MCP_3208\MCP3208.cpp" />
+    <ClCompile Include="dataTypeVal.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\asmcapture\src\asmcapture.h" />
+    <ClInclude Include="..\..\asmCapture\asmcapture.h" />
+    <ClInclude Include="..\..\MCP_3208\MCP3208.h" />
+    <ClInclude Include="dataTypeVal.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
